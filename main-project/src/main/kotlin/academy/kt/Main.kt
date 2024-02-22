@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
     val userService = UserService(tokenService)
     val measuredService = MeasuredUserService(tokenService)
     val user = measuredService.findUser(12) 
-    // findUser from UserService took 100Xms
+    // findUser from UserService took 200Xms
     val user2 = measuredService.findUsers() 
     // findUser from UserService took 100Xms
 
