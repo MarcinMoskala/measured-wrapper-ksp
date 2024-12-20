@@ -7,8 +7,8 @@ plugins {
 val kspVersion: String by project
 
 dependencies {
-    implementation("com.squareup:kotlinpoet:1.12.0")
-    implementation("com.squareup:kotlinpoet-ksp:1.12.0")
+    implementation("com.squareup:kotlinpoet:2.0.0")
+    implementation("com.squareup:kotlinpoet-ksp:2.0.0")
     implementation(project(":annotations"))
     implementation("com.google.devtools.ksp:symbol-processing-api:$kspVersion")
     testImplementation(kotlin("test"))
